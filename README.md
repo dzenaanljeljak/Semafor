@@ -1,27 +1,34 @@
-# Semafor
+# Stoperica – Flowcode
 
-Ovaj projekat predstavlja simulaciju semafora za raskrsnicu urađenu u programu Flowcode. Cilj projekta je prikaz rada semaforskog sistema pomoću logike sekvencijalnog upravljanja signalima.
+Ovaj projekat predstavlja simulaciju digitalne stoperice urađene u programu Flowcode. Cilj projekta je prikaz rada stoperice pomoću logike brojanja vremena i upravljanja signalima.
 
-Semafor funkcioniše kroz više stanja:
+Stoperica funkcioniše kroz više stanja:
 
-Zeleno svjetlo za jedan pravac
-Žuto svjetlo kao prelazno stanje
-Crveno svjetlo za zaustavljanje saobraćaja
-Naizmjenično upravljanje pravcima raskrsnice
+- Pokretanje brojanja vremena
+- Zaustavljanje stoperice
+- Resetovanje vremena
+- Prikaz proteklog vremena
 
 Projekat je napravljen kao vježba za:
 
-digitalnu logiku
-automatiku
-simulaciju mikrokontrolera
-sekvencijalne sisteme
-
+- digitalnu logiku
+- automatiku
+- simulaciju mikrokontrolera
+- rad sa tajmerima i brojačima
 
 ## Tehnologije
 
 - Flowcode
 - Mikrokontroler (zavisno od konfiguracije projekta)
-- LED indikatori za simulaciju semafora
+- LED ili 7-segmentni displej
+- Tasteri za upravljanje stopericom
+
+## Pokretanje projekta
+
+1. Otvoriti projekat u programu Flowcode.
+2. Pokrenuti simulaciju.
+3. Koristiti tastere za start, stop i reset funkcije.
 
 ## Autor
+
 Dženan Ljeljak
